@@ -37,9 +37,14 @@ h2 {
 	margin-top: 150px;
 	color: rgb(189, 37, 37);
 	text-decoration: none;
+	transition: color 0.3s ease ;
 	max-height: 30px;
 	text-indent: 90px;
 	margin-right: 60px;
+}
+
+.nav:hover {
+	color: blueviolet;
 }
 
 .disc {
@@ -55,7 +60,6 @@ h2 {
 
 .discp {
 	position: absolute;
-	flex: 1;
 	font-size: larger;
 	max-width: 600px;
 	margin-left: 50px;
@@ -63,7 +67,9 @@ h2 {
 }
 
 .prev {
-	width: 800px;
+	width: 700px;
 	height: 350px;
-	margin-left: 850px;
+	margin-left: 1000px;
 }
+
+
